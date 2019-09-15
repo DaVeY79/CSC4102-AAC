@@ -4,4 +4,4 @@ def toh(n,from_tower,aux_tower,to_tower):
         print("Moving disc from {} --> {}".format(from_tower,to_tower))
         toh(n-1,aux_tower,from_tower,to_tower)
 
-toh(4,"A","B","C")
+toh(3,"A","B","C")
